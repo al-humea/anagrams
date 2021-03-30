@@ -14,4 +14,9 @@
 
 /* anagram functions */
 
+void	anagram(char *elements, char **result);
+char	*strip(char *str, int index);
+void	ana_reduc(char **result);
+void	ana_add(char **result, char chr);
+
 #endif
